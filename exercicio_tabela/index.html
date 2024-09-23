@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site|Empresa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="navbar show-menu">
+        <div class="header-inner-content">
+            <h1 class="logo">Finish<span>Corridas</span></h1> 
+            <nav>
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Dirija</li></a>
+                    <a href="#"><li>cadastro</li></a>
+                    <a href="#"><li>Corridas</li></a>
+                    <a href="#"><li>Sobre</li></a>
+            </nav>
+        </div>
+    </div>
+    <header>
+        <div class="header-inner-content">
+            <div class="header-bottom-side">
+                <div class="header-bottom-side-left">
+                            <br>
+                <section>
+                    <h2>De um novo estilo de vida 
+                        para você motorista:</h2>
+                    </section>
+
+                    <article>
+                        <p>Olá nós somos a Finish, talvez ainda tenha ouvido falar pouco sobre nós, quero
+                            dizer que somos um aplicativo focado em maximizar seus ganhos e impulsionar
+                            sua jornada como motorista de aplicativo com tarifas a partir de trinta reais por
+                            semana, garantimos que cada quilômetro percorrido valha ainda mais com
+                            economia e flexibilidade para uma condução mais rentável!</p>
+                            <a href="#"><button>Cadastra-se Agora! &#8594;</button></a>
+                        </article>
+                        <br>
+                        <br>
+                        <br>
+                        <table class="tabela1">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Corridas</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>01</td>
+                                    <td>Corrida comum</td>
+                                </tr>
+                                <tr>
+                                    <td>02</td>
+                                    <td>Corrida Compartilhada</td>
+                                </tr>
+                                <tr>
+                                    <td>03</td>
+                                    <td>Corrida Plus</td>
+                                </tr>
+                                <tr>
+                                    <td>04</td>
+                                    <td>Corrida Pet</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <td colspan="2">Os valores podem sofrer alterações</td>
+                            </tfoot>
+                        </table>
+                </div>
+            </div>
+        </div>
+        </div>
+        <footer>
+            <p>&copy; 2024 - Todos os direitos reservados</p>
+            <p>Entre em contato pelo e-mail: Finishaplicativo@gmail.com</p>
+            <nav>
+                <ul>
+                    <a href="#"><li>Ajuda</li></a>
+                    <a href="#"><li>Termos e politicas</li></a>
+                    <a href="#"><li>Feedback</li></a>
+
+                </ul>
+            </nav>
+        </footer>
+    </header>
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menubutton = document.querySelector(".menu-button");
+
+        menubutton.addEventListener('click', () => {
+            navbar.classList.toggle("show-menu");
+        });
+    </script>
+</body>
+</html>
